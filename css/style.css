@@ -141,6 +141,19 @@ h5 {
     box-shadow: #fa5c65;
 }
 
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #fa5c65;
+    border-color: #fa5c65;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    color: #fff;
+    background-color: #fa5c65;
+    border-color: #fa5c65;
+    box-shadow: 0 0 0 0.1rem #fa5c65;
+}
+
 #more h2 {
     padding-bottom: 27px;
 }
